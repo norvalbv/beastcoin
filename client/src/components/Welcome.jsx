@@ -6,6 +6,7 @@ import { BsInfoCircle } from "react-icons/bs";
 import { TransactionContext } from "../context/TransactionContext";
 import { shortenAddress } from "../utils/shortenAddress";
 import { Loader } from ".";
+import logo from '../../images/Mr-Beast-Logo-HF.png';
 
 const companyCommonStyles = "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white";
 
@@ -34,12 +35,12 @@ const Welcome = () => {
   };
 
   return (
-    <div className="flex w-full justify-center items-center">
+    <div className="flex w-full justify-center items-center gradient-bg-services">
       <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
         <div className="flex flex-1 justify-start items-start flex-col mf:mr-10">
-          <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
+          <h2 className="text-3xl sm:text-5xl text-white text-gradient py-1">
             Send Crypto <br /> across the world
-          </h1>
+          </h2>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
             Explore the crypto world. Buy and sell cryptocurrencies easily on Krypto.
           </p>
@@ -79,7 +80,8 @@ const Welcome = () => {
             <div className="flex justify-between flex-col w-full h-full">
               <div className="flex justify-between items-start">
                 <div className="w-10 h-10 rounded-full border-2 border-white flex justify-center items-center">
-                  <SiEthereum fontSize={21} color="#fff" />
+                  {/* <SiEthereum fontSize={21} color="#fff" /> */}
+                  <img src={logo} alt="#" className="brightness-0 invert" />
                 </div>
                 <BsInfoCircle fontSize={17} color="#fff" />
               </div>
@@ -88,7 +90,7 @@ const Welcome = () => {
                   {shortenAddress(currentAccount)}
                 </p>
                 <p className="text-white font-semibold text-lg mt-1">
-                  Ethereum
+                  Beastcoin
                 </p>
               </div>
             </div>

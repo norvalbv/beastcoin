@@ -1,0 +1,17 @@
+.description {
+  color: #fff;
+  font-size: 1rem;
+  margin: 15rem auto 0;
+  text-transform: uppercase;
+  padding: 0 15rem;
+  text-align: center;
+}
+
+.whitepaper {
+  padding: 1rem 1.25rem;
+  margin: 3rem 0;
+  background: #000;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=description.css.map */
