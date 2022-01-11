@@ -1,0 +1,49 @@
+.how-to {
+  color: #fff;
+  padding: 7.5vh 15vh 10vh;
+  line-height: 1.75;
+}
+
+.how-to h2
+p {
+  width: 50%;
+}
+
+.how-to .contract {
+  margin: 5vh;
+  border: 1px solid #fff;
+  font-size: 20px;
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 36.5vw;
+}
+
+.how-to .congratulations {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1000px) {
+  .how-to .contract {
+    font-size: 16px;
+    display: block;
+    margin: 3vh 0;
+    width: 23.75rem;
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .how-to {
+    padding: 7.5vh 5vh 10vh;
+  }
+  .how-to .contract {
+    word-wrap: break-word;
+    white-space: nowrap;
+    width: auto;
+  }
+}
+/*# sourceMappingURL=howto.css.map */

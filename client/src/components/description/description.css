@@ -3,7 +3,7 @@
   font-size: 1rem;
   margin: 15rem auto 0;
   text-transform: uppercase;
-  padding: 0 15rem;
+  padding: 0 10rem;
   text-align: center;
 }
 
@@ -13,5 +13,11 @@
   background: #000;
   border-radius: 10px;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 500px) {
+  .description {
+    padding: 0 5rem;
+  }
 }
 /*# sourceMappingURL=description.css.map */

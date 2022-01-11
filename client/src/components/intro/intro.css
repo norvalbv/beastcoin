@@ -1,0 +1,82 @@
+.container {
+  margin: 5vh 0 20vh;
+}
+
+.container #logo {
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+  right: 0;
+  width: 75%;
+  z-index: 0;
+}
+
+.container .container-inner {
+  padding: 5vh 15vh;
+  z-index: 5;
+}
+
+.container .container-inner .main-header {
+  font-size: 5rem;
+  line-height: 1.1;
+  font-weight: bold;
+  letter-spacing: 5px;
+  z-index: 10;
+}
+
+.container .container-inner .header-desc {
+  color: #fff;
+}
+
+.container .container-inner .contract {
+  margin: 3vh 0;
+  border: 1px solid #fff;
+  font-size: 20px;
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 36.5vw;
+  z-index: 10;
+}
+
+.container .container-inner .contract-2 {
+  margin: 3vh 0;
+  border: 1px solid #fff;
+  font-size: 20px;
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 10;
+}
+
+@media only screen and (max-width: 750px) {
+  .container img {
+    top: 10vh;
+  }
+  .container .container-inner {
+    padding: 5vh 10vh;
+  }
+  .container .container-inner .contract {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .container #logo {
+    top: 10vh;
+    width: 100%;
+  }
+  .container .container-inner {
+    padding: 5vh 5vh;
+  }
+  .container .container-inner .contract {
+    display: none;
+  }
+  .container .container-inner .contract-2 {
+    display: block;
+  }
+}
+/*# sourceMappingURL=intro.css.map */

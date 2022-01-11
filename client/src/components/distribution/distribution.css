@@ -1,4 +1,4 @@
-.tokenomics {
+.distribution {
   color: #fff;
   font-size: 1rem;
   text-transform: uppercase;
@@ -6,11 +6,11 @@
   text-align: center;
 }
 
-.tokenomics .purchase {
+.distribution .purchase {
   margin: 1rem 0;
 }
 
-.tokenomics .outer-ul {
+.distribution .outer-ul {
   margin: 5rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,13 +27,13 @@
       flex-wrap: wrap;
 }
 
-.tokenomics .outer-ul .inner-ul {
+.distribution .outer-ul .inner-ul {
   width: 12.5rem;
 }
 
-.tokenomics .outer-ul .inner-ul li:first-child {
+.distribution .outer-ul .inner-ul li:first-child {
   font-size: 1.5rem;
   letter-spacing: 5px;
   font-weight: 500;
 }
-/*# sourceMappingURL=tokenomics.css.map */
+/*# sourceMappingURL=distribution.css.map */

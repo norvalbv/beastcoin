@@ -1,4 +1,5 @@
 import "./description.scss";
+import whitepaper from '../../../../Whitepaper.pdf';
 
 export default function Description() {
   return (
@@ -8,7 +9,7 @@ export default function Description() {
         <br />
         Become a Beast
       </p>
-      <button className="whitepaper"><a href="#">Read Whitepaper</a></button>
+      <button className="whitepaper"><a href={whitepaper} target="_blank">Read Whitepaper</a></button>
     </div>
   );
 }

@@ -24,7 +24,7 @@ const Services = () => (
         <h1 className="text-white text-3xl sm:text-5xl py-2 text-gradient ">
           Services that we
           <br />
-          continue to improve
+          stand by
         </h1>
         <p className="text-left my-2 text-white font-light md:w-9/12 w-11/12 text-base">
           The best choice for buying and selling your crypto assets, with the
@@ -37,19 +37,19 @@ const Services = () => (
           color="bg-[#2952E3]"
           title="Security gurantee"
           icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
-          subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+          subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products."
         />
         <ServiceCard
           color="bg-[#8945F8]"
           title="Best exchange rates"
           icon={<BiSearchAlt fontSize={21} className="text-white" />}
-          subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+          subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products."
         />
         <ServiceCard
           color="bg-[#F84550]"
-          title="Fastest transactions"
+          title="10% Charitable Donations"
           icon={<RiHeart2Fill fontSize={21} className="text-white" />}
-          subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+          subtitle="0.25% of the total sum donated at the start of every month, lasting 4.1 years."
         />
       </div>
     </div>
