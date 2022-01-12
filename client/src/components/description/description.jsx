@@ -1,10 +1,10 @@
 import "./description.scss";
-import whitepaper from '../../../../Whitepaper.pdf';
+import whitepaper from "../../../../Whitepaper.pdf";
 
 export default function Description() {
   return (
     <div className="description">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, nisi perferendis adipisci culpa voluptate, eius assumenda earum fugiat doloribus similique excepturi illum. Nam ipsam fugit debitis quisquam iste hic obcaecati.
+      <p>Beastcoin is a new decentralized cryptocurrency with a widespread philanthropic community that has been designed to be a reliable payment system on the Binance network. The core team is led by a group of experienced engineers and traders.
         <br />
         <br />
         Become a Beast

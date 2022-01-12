@@ -2,13 +2,12 @@
   margin: 5vh 0 20vh;
 }
 
-.container #logo {
+.container .branding {
   position: absolute;
   opacity: 0.5;
   top: 0;
   right: 0;
   width: 75%;
-  z-index: 0;
 }
 
 .container .container-inner {
@@ -50,11 +49,15 @@
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
   z-index: 10;
+  width: 16rem;
 }
 
 @media only screen and (max-width: 750px) {
-  .container img {
-    top: 10vh;
+  .container {
+    margin: 5vh 0 0;
+  }
+  .container .branding {
+    display: none;
   }
   .container .container-inner {
     padding: 5vh 10vh;
@@ -64,11 +67,13 @@
   }
 }
 
-@media only screen and (max-width: 550px) {
-  .container #logo {
-    top: 10vh;
-    width: 100%;
+@media only screen and (max-width: 1000px) {
+  .container .container-inner .contract {
+    width: 23.75rem;
   }
+}
+
+@media only screen and (max-width: 550px) {
   .container .container-inner {
     padding: 5vh 5vh;
   }

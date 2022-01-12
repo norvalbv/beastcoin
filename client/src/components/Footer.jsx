@@ -9,7 +9,6 @@ const Footer = () => (
         <img src={logo} alt="logo" className="w-32" />
       </div>
       <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
-        <a href="https://pancakeswap.com/swap" target="_blank"  className="text-white text-base text-center mx-2 cursor-pointer">Discord</a>
         <a href="https://t.me/beastcoin6000" target="_blank"  className="text-white text-base text-center mx-2 cursor-pointer">Telegram</a>
         <a href="https://instagram.com/beast.coin" target="_blank"  className="text-white text-base text-center mx-2 cursor-pointer">Instagram</a>
         <a href="https://twitter.com/beastcoin6000" target="_blank" className="text-white text-base text-center mx-2 cursor-pointer">Twitter</a>
