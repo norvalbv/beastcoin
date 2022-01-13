@@ -8,9 +8,11 @@
   top: 0;
   right: 0;
   width: 75%;
+  z-index: 0;
 }
 
 .container .container-inner {
+  position: relative;
   padding: 5vh 15vh;
   z-index: 5;
 }
@@ -77,11 +79,24 @@
   .container .container-inner {
     padding: 5vh 5vh;
   }
+  .container .container-inner .header-desc {
+    margin: 2rem 0;
+  }
   .container .container-inner .contract {
     display: none;
   }
   .container .container-inner .contract-2 {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .container .container-inner .main-header {
+    font-size: 4rem;
+  }
+  .container .container-inner .contract-2 {
+    font-size: 16px;
+    width: 13rem;
   }
 }
 /*# sourceMappingURL=intro.css.map */

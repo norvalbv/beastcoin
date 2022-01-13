@@ -2,7 +2,7 @@ import "./distribution.scss";
 
 export default function Distribution() {
   return (
-    <div className="distribution gradient-bg-distribution">
+    <div className="distribution gradient-bg-distribution" id="distribution">
       <h2 className="text-3xl sm:text-5xl text-white text-gradient py-1">Token Distribution</h2>
       <p className="purchase">Token Distribution.</p>
       <ul className="outer-ul">

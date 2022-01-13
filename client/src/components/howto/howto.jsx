@@ -2,7 +2,7 @@ import "./howto.scss";
 
 export default function HowTo() {
   return (
-    <div className="how-to gradient-bg-transactions">
+    <div className="how-to gradient-bg-transactions" id="howto">
       <h2 className="text-3xl sm:text-4xl text-white text-gradient py-1 mb-10">How To Buy $BEAST on PancakeSwap</h2>
       <p>First, download and install the MetaMask extension to your internet browser.
         Connect Binance Smart Chain with your MetaMask. Make sure you have BNB coins in your MetaMask wallet.
